@@ -96,7 +96,7 @@ fn main() {
 
         line_number += 1;
 
-        if line_number >= 10 {
+        if line_number >= args.rows {
             println!("{:?}. frame collected!", gif.frames.len() + 1);
 
             gif.frames.push(frame);
